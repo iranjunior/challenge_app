@@ -1,0 +1,30 @@
+name: challenge_app
+description: Challenge app.
+publish_to: 'none'
+version: 1.0.0
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  ferry: 0.10.2+2
+  flutter_riverpod: ^0.14.0+3
+  get_it: ^7.1.3
+  skeleton_loader: ^2.0.0+4
+  intl: ^0.17.0
+  riverpod: ^0.14.0+3
+  challenge_service:
+    path: ../challenge_service
+  challenge_ui:
+    path: ../challenge_ui
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+  test: any
+  ferry_generator: ^0.4.3
+  build_runner: ^2.0.5
+
+flutter:
+  uses-material-design: true

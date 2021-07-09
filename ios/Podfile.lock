@@ -1,0 +1,22 @@
+PODS:
+  - challenge_ui (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - challenge_ui (from `.symlinks/plugins/challenge_ui/ios`)
+  - Flutter (from `Flutter`)
+
+EXTERNAL SOURCES:
+  challenge_ui:
+    :path: ".symlinks/plugins/challenge_ui/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  challenge_ui: 3771e290f1e65f3913386bb27dd63be8dec409a8
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.10.1
